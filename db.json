@@ -1,0 +1,30 @@
+{
+  "reservations": [
+    {
+      "id": "3e03",
+      "areaId": "1",
+      "name": "David Bakhtan",
+      "email": "Davidbakhtan@gmail.com",
+      "date": "2025-06-26",
+      "time": "9:00 AM - 12:00 PM"
+    }
+  ],
+  "areas": [
+    {
+      "id": "1",
+      "name": "Forest Hills"
+    },
+    {
+      "id": "2",
+      "name": "Lakeside Park"
+    },
+    {
+      "id": "3",
+      "name": "Mountain Trail"
+    },
+    {
+      "id": "4",
+      "name": "River Bend"
+    }
+  ]
+}

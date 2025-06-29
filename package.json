@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "serve:ssr:AngularAppl": "node dist/AngularApp1/serverserver.mjs",
+    "json-server": "json-server --watch db.json --port 3001"
   },
   "private": true,
   "dependencies": {
@@ -23,12 +25,13 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.0.3",
-    "@angular/cli": "~13.0.3",
+    "@angular-devkit/build-angular": "^20.0.4",
+    "@angular/cli": "^20.0.4",
     "@angular/compiler-cli": "~13.0.0",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.10.0",
+    "json-server": "^1.0.0-beta.3",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.0.3",

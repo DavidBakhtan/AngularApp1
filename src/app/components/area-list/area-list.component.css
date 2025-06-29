@@ -1,0 +1,24 @@
+  .area-list {
+    padding: 20px;
+  }
+  
+  .area-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .area-list li {
+    padding: 8px 0;
+    font-size: 18px;
+  }
+  
+  .area-list a {
+    text-decoration: none;
+    color: #2c3e50;
+  }
+  
+  .area-list a:hover {
+    text-decoration: underline;
+    color: #007bff;
+  }
+  

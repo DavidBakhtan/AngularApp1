@@ -1,0 +1,6 @@
+/* styles.css or app.component.css */
+a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
